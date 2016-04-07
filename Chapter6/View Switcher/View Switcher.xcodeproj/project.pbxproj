@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D10E1E2C1CB56976006D4FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E1E2B1CB56976006D4FAF /* AppDelegate.swift */; };
-		D10E1E2E1CB56976006D4FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E1E2D1CB56976006D4FAF /* ViewController.swift */; };
 		D10E1E311CB56976006D4FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10E1E2F1CB56976006D4FAF /* Main.storyboard */; };
 		D10E1E331CB56976006D4FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10E1E321CB56976006D4FAF /* Assets.xcassets */; };
 		D10E1E361CB56976006D4FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10E1E341CB56976006D4FAF /* LaunchScreen.storyboard */; };
+		D1B14B461CB6A4750008AFD4 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B451CB6A4750008AFD4 /* SwitchingViewController.swift */; };
+		D1B14B481CB6A5090008AFD4 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B471CB6A5090008AFD4 /* BlueViewController.swift */; };
+		D1B14B4A1CB6A51A0008AFD4 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B491CB6A51A0008AFD4 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D10E1E281CB56976006D4FAF /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10E1E2B1CB56976006D4FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D10E1E2D1CB56976006D4FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D10E1E301CB56976006D4FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D10E1E321CB56976006D4FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D10E1E351CB56976006D4FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D10E1E371CB56976006D4FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B14B451CB6A4750008AFD4 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		D1B14B471CB6A5090008AFD4 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		D1B14B491CB6A51A0008AFD4 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		D10E1E2A1CB56976006D4FAF /* View Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				D1B14B451CB6A4750008AFD4 /* SwitchingViewController.swift */,
 				D10E1E2B1CB56976006D4FAF /* AppDelegate.swift */,
-				D10E1E2D1CB56976006D4FAF /* ViewController.swift */,
 				D10E1E2F1CB56976006D4FAF /* Main.storyboard */,
 				D10E1E321CB56976006D4FAF /* Assets.xcassets */,
 				D10E1E341CB56976006D4FAF /* LaunchScreen.storyboard */,
 				D10E1E371CB56976006D4FAF /* Info.plist */,
+				D1B14B471CB6A5090008AFD4 /* BlueViewController.swift */,
+				D1B14B491CB6A51A0008AFD4 /* YellowViewController.swift */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					D10E1E271CB56976006D4FAF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SQ4976HFE4;
 					};
 				};
 			};
@@ -135,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D10E1E2E1CB56976006D4FAF /* ViewController.swift in Sources */,
+				D1B14B4A1CB6A51A0008AFD4 /* YellowViewController.swift in Sources */,
 				D10E1E2C1CB56976006D4FAF /* AppDelegate.swift in Sources */,
+				D1B14B481CB6A5090008AFD4 /* BlueViewController.swift in Sources */,
+				D1B14B461CB6A4750008AFD4 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "View Switcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daichao.View-Switcher";
@@ -262,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "View Switcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daichao.View-Switcher";
@@ -288,6 +299,7 @@
 				D10E1E3C1CB56976006D4FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

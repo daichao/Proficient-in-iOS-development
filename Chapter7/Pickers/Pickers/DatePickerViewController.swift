@@ -42,6 +42,8 @@ class DatePickerViewController: UIViewController {
         dateFormatter.dateStyle = .MediumStyle
         dateFormatter.timeStyle = .NoStyle
         dateFormatter.locale = NSLocale(localeIdentifier: "ja_JP")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm"
+        dateFormatter.timeZone = NSTimeZone(forSecondsFromGMT: 0)
         let newDate=dateFormatter.stringFromDate(date)
         //NSLog("%@", ) // 2001/01/02
         let message="The date and time you selected is \(newDate)"

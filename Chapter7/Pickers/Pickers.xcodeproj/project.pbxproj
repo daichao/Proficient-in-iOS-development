@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D150614B1CB966240077109F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D150614A1CB966240077109F /* statedictionary.plist */; };
 		D19CAE961CB7885200C1F8DC /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19CAE951CB7885200C1F8DC /* DatePickerViewController.swift */; };
 		D19CAE981CB788AE00C1F8DC /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19CAE971CB788AE00C1F8DC /* SingleComponentPickerViewController.swift */; };
 		D19CAE9A1CB788CB00C1F8DC /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19CAE991CB788CB00C1F8DC /* DoubleComponentPickerViewController.swift */; };
@@ -17,9 +18,12 @@
 		D1B14B5D1CB6B9AA0008AFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B14B5B1CB6B9AA0008AFD4 /* Main.storyboard */; };
 		D1B14B5F1CB6B9AA0008AFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B14B5E1CB6B9AA0008AFD4 /* Assets.xcassets */; };
 		D1B14B621CB6B9AA0008AFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B14B601CB6B9AA0008AFD4 /* LaunchScreen.storyboard */; };
+		D1CBB57B1CB976A0005EA7D5 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1CBB5791CB976A0005EA7D5 /* crunch.wav */; };
+		D1CBB57C1CB976A0005EA7D5 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1CBB57A1CB976A0005EA7D5 /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D150614A1CB966240077109F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		D19CAE951CB7885200C1F8DC /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		D19CAE971CB788AE00C1F8DC /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		D19CAE991CB788CB00C1F8DC /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +36,8 @@
 		D1B14B5E1CB6B9AA0008AFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B14B611CB6B9AA0008AFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1B14B631CB6B9AA0008AFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CBB5791CB976A0005EA7D5 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		D1CBB57A1CB976A0005EA7D5 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 		D1B14B561CB6B9AA0008AFD4 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				D1CBB5791CB976A0005EA7D5 /* crunch.wav */,
+				D1CBB57A1CB976A0005EA7D5 /* win.wav */,
+				D150614A1CB966240077109F /* statedictionary.plist */,
 				D1B14B571CB6B9AA0008AFD4 /* AppDelegate.swift */,
 				D1B14B591CB6B9AA0008AFD4 /* ViewController.swift */,
 				D1B14B5B1CB6B9AA0008AFD4 /* Main.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CBB57B1CB976A0005EA7D5 /* crunch.wav in Resources */,
 				D1B14B621CB6B9AA0008AFD4 /* LaunchScreen.storyboard in Resources */,
 				D1B14B5F1CB6B9AA0008AFD4 /* Assets.xcassets in Resources */,
+				D1CBB57C1CB976A0005EA7D5 /* win.wav in Resources */,
+				D150614B1CB966240077109F /* statedictionary.plist in Resources */,
 				D1B14B5D1CB6B9AA0008AFD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

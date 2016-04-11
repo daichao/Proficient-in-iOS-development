@@ -51,7 +51,9 @@ class CustomPickerViewController: UIViewController,UIPickerViewDelegate,UIPicker
         let imageView=UIImageView(image:image)
         return imageView
     }
-    
+    func pickerView(pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+        return 64
+    }
     @IBAction func spin(sender: UIButton) {
         
         var win = false

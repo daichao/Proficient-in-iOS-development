@@ -33,9 +33,12 @@ class RootViewController: UITableViewController {
     func fontForDisplay(atIndexPath indexPath:NSIndexPath) -> UIFont?{
         if indexPath.section==0{
             let familyName=familyNames[indexPath.row]
-            let fontName=UIFont.fontNamesForFamilyName(familyName).first!
+            var fontName:String=""
+            if(!UIFont.fontNamesForFamilyName(familyName).isEmpty){
+                 fontName=UIFont.fontNamesForFamilyName(familyName).first!
+                
+            }
             return UIFont(name: fontName, size: cellPointSize)
-            
             
         }else{
             return nil

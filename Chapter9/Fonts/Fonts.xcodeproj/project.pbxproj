@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D14D3AEA1CBE9F61009A2512 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D3AE91CBE9F61009A2512 /* FontListViewController.swift */; };
 		D1E1D7F71CBE24EE003BDBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D7F61CBE24EE003BDBB4 /* AppDelegate.swift */; };
 		D1E1D7FC1CBE24EE003BDBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E1D7FA1CBE24EE003BDBB4 /* Main.storyboard */; };
 		D1E1D7FE1CBE24EE003BDBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E1D7FD1CBE24EE003BDBB4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D14D3AE91CBE9F61009A2512 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 		D1E1D7F31CBE24EE003BDBB4 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1D7F61CBE24EE003BDBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E1D7FB1CBE24EE003BDBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E1D80A1CBE35A7003BDBB4 /* RootViewController.swift */,
+				D14D3AE91CBE9F61009A2512 /* FontListViewController.swift */,
 				D1E1D7F61CBE24EE003BDBB4 /* AppDelegate.swift */,
 				D1E1D7FA1CBE24EE003BDBB4 /* Main.storyboard */,
 				D1E1D8081CBE2608003BDBB4 /* FavoritesList.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E1D7F71CBE24EE003BDBB4 /* AppDelegate.swift in Sources */,
+				D14D3AEA1CBE9F61009A2512 /* FontListViewController.swift in Sources */,
 				D1E1D8091CBE2608003BDBB4 /* FavoritesList.swift in Sources */,
 				D1E1D80B1CBE35A7003BDBB4 /* RootViewController.swift in Sources */,
 			);
@@ -290,6 +294,7 @@
 				D1E1D8071CBE24EE003BDBB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
